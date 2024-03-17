@@ -1,0 +1,21 @@
+.Header-bgTransparent {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.Header-bgWhite {
+  background-color: white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+
+.Header-bgTransparent_transition {
+  background-color: transparent !important; /* overriding initial */
+  box-shadow: none !important; /* overriding initial */
+  transition: all 150ms ease-in-out;
+}
+
+.Header-bgWhite_transition {
+  background-color: white !important; /* overriding initial */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.6) !important; /* overriding initial */
+  transition: all 0.2s ease-in-out;
+}
