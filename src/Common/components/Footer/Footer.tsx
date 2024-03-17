@@ -19,7 +19,7 @@ export default function CommonFooter() {
         <div className="flex flex-1 justify-end">
           <a
             className="text-gray-500 underline"
-            href="https://github.com/AntonCodesCom"
+            href="https://github.com/AntonCodesCom/nextjs-storefront"
           >
             GitHub
           </a>
