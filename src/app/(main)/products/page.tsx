@@ -1,5 +1,9 @@
-import CommonTbd from '@/Common/components/Tbd';
+import CommonProductList2 from '@/Common/components/ProductList2';
 
 export default function RouteProducts() {
-  return <CommonTbd />;
+  return (
+    <>
+      <CommonProductList2 />
+    </>
+  );
 }
