@@ -1,3 +1,3 @@
-import CommonProductList2 from "./ProductList2";
+import CommonProductList2 from './ProductList2';
 
-export default CommonProductList2
+export default CommonProductList2;
