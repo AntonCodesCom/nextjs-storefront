@@ -94,13 +94,13 @@ export default function RouteCart() {
         <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
           <p>
             or{' '}
-            <button
-              type="button"
+            <a
+              href="/products"
               className="font-medium text-indigo-600 hover:text-indigo-500"
             >
               Continue Shopping
               <span aria-hidden="true"> &rarr;</span>
-            </button>
+            </a>
           </p>
         </div>
       </div>
