@@ -20,3 +20,7 @@ npm run dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Attribution
+
+The UI of this storefront application was built based of free [Tailwind UI Components](https://tailwindui.com/components).
