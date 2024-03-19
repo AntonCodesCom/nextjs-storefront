@@ -2,7 +2,7 @@
 
 A demo storefront application built on [Next.js](https://nextjs.org/) with Tailwind.
 
-Live demo: https://next-js-strorefront-54zyq2gr8-antoncodes.vercel.app/
+Live demo: https://nextjs-storefront-indigo.vercel.app
 
 ## Getting Started
 
