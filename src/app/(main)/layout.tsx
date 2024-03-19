@@ -19,6 +19,7 @@ export default function MainLayout({ children }: Readonly<Props>) {
         <CommonHeader />
       </div>
       <main style={{ flex: 1 }}>{children}</main>
+      <div className="mb-10" />
       <CommonFooter />
     </div>
   );
