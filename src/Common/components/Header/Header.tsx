@@ -6,16 +6,16 @@ import './Header.css';
 
 const topCollections = [
   {
-    name: 'Collection1',
-    slug: 'collection-1',
+    name: 'Electronics',
+    slug: 'electronics',
   },
   {
-    name: 'Collection2',
-    slug: 'collection-2',
+    name: 'Home & Garden',
+    slug: 'home-garden',
   },
   {
-    name: 'Collection3',
-    slug: 'collection-3',
+    name: 'Sports & Outdoor',
+    slug: 'sports-outdoor',
   },
 ];
 
@@ -60,7 +60,7 @@ export default function CommonHeader() {
   }, []);
 
   return (
-    <header ref={headerRef}>
+    <header ref={headerRef} className="mb-10">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"

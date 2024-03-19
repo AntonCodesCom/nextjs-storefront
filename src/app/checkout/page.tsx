@@ -1,12 +1,8 @@
 import CommonFooter from '@/Common/components/Footer';
 import CommonHeader from '@/Common/components/Header';
-import { ReactNode } from 'react';
+import CommonTbd from '@/Common/components/Tbd';
 
-interface Props {
-  children: ReactNode;
-}
-
-export default function MainLayout({ children }: Readonly<Props>) {
+export default function RouteCheckout() {
   return (
     <div
       style={{
@@ -18,8 +14,9 @@ export default function MainLayout({ children }: Readonly<Props>) {
       <div style={{ position: 'sticky', top: 0, zIndex: 4 }}>
         <CommonHeader />
       </div>
-      <main style={{ flex: 1 }}>{children}</main>
-      <div className="mb-10" />
+      <main style={{ flex: 1 }}>
+        <CommonTbd />
+      </main>
       <CommonFooter />
     </div>
   );
